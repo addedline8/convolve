@@ -10,7 +10,7 @@ using std::ifstream; using std::ofstream;
 #include "class-08.h"
 #include "split.h"
 /*
-Convolve uses a quaduaple for loop to iterate through each, pixel, while
+Convolve uses a quaduaple for loop to iterate through each pixel, while
 getting the values of the pixels around it and the mask values. 
 
 once it obtains each value it appends it to a new vector and then that 
