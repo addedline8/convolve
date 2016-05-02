@@ -9,4 +9,4 @@ The operations are represented by a matrix, the convolution mask. For each pixel
 
 For edge pixels that do not have the required neighbors to make the calculation, we treat the missing neighbors as 0s.
 
-The methods included are sharpen, edge_detect, blur, and embos, which simply have the convolution mask associated with the process hard-coded into the method. Each of these call convolve, which creates a new image and takes in a convolution mask with dimensions w and h. This mask is applied to the old image, and since the new image is passed by reference it is updated in the caller.
+The methods included are sharpen, edge_detect, blur, and emboss, which simply have the convolution mask associated with the process hard-coded into the method. Each of these call convolve, which creates a new image and takes in a convolution mask with dimensions w and h. This mask is applied to the old image, and since the new image is passed by reference it is updated in the caller.
