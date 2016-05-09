@@ -7,7 +7,7 @@ using std::string; using std::stol;
 #include <fstream>
 using std::ifstream; using std::ofstream;
 
-#include "class.h"
+#include "classImage.h"
 #include "split.h"
 /*
 Convolve uses a quaduaple for loop to iterate through each pixel, while
